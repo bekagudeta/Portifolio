@@ -1,0 +1,48 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #1a1a2e, #16213e);
+  height: 100vh;
+  color: #fff;
+}
+
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Navbar Glass Effect */
+.glass-nav {
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(10px);
+}
+
+/* About Image */
+.about-img {
+  max-width: 85%;
+  border-radius: 15px;
+  transition: transform 0.4s ease;
+}
+.about-img:hover {
+  transform: scale(1.05);
+}
+
+/* Project Cards */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+.footer {
+  background: #111;
+}
